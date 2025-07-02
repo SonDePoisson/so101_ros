@@ -1,0 +1,6 @@
+[submodule "so101_description"]
+	path = so101_description
+	url = git@github.com:SonDePoisson/so101_description.git
+[submodule "so101_moveit_description"]
+	path = so101_moveit_description
+	url = git@github.com:SonDePoisson/so101_moveit_description.git
