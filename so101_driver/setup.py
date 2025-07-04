@@ -18,6 +18,8 @@ setup(
     license="TODO: License declaration",
     tests_require=["pytest"],
     entry_points={
-        "console_scripts": ["so101_node = so101_driver.so101_node:main"],
+        "console_scripts": [
+            "so101_joint_trajectory_controller = so101_driver.so101_joint_trajectory_controller:main",
+        ],
     },
 )
