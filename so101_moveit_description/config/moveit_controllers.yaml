@@ -5,6 +5,7 @@ moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControll
 moveit_simple_controller_manager:
   controller_names:
     - so101_arm_controller
+    - so101_gripper_controller
 
   so101_arm_controller:
     type: FollowJointTrajectory
@@ -16,4 +17,11 @@ moveit_simple_controller_manager:
       - Elbow
       - Wrist_Pitch
       - Wrist_Roll
+      # - Gripper
+
+  so101_gripper_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    default: true
+    joints:
       - Gripper
