@@ -47,7 +47,7 @@ are defined
     </group_state>
     <!--END
     EFFECTOR: Purpose: Represent information about an end effector.-->
-    <!-- <end_effector name="so101_gripper" parent_link="jaw" group="so101_arm"/> -->
+    <end_effector name="so101_gripper" parent_link="jaw" group="so101_arm"/>
     <!--VIRTUAL
     JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame
     of reference (considered fixed with respect to the robot)-->
